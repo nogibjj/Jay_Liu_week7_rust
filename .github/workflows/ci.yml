@@ -32,5 +32,5 @@ jobs:
     - name: Upload Binary Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: Jay_Liu_week7_rust
+        name: jay_liu_week7_rust_binary
         path: target/release/Jay_Liu_week7_rust
