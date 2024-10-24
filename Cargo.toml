@@ -1,0 +1,14 @@
+[package]
+name = "Jay_Liu_week7_rust"
+version = "0.1.0"
+authors = ["jay.liu011016@gmail.com"]
+edition = "2021"
+description = "A brief description of JAY_LIU_WEEK7_RUST."
+license = "MIT"
+repository = "https://github.com/nogibjj/Jay_Liu_week7_rust"
+
+[dependencies]
+clap = { version = "4.3.2", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.8"
