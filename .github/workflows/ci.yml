@@ -35,5 +35,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: jay_liu_week7_rust_binary
-        path: target/release/jay_liu_week7_rust
+        path: target/release/Jay_Liu_week7_rust
 
