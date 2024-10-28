@@ -12,8 +12,7 @@ This project showcases the development of a command-line tool using the Rust pro
 
 The project is organized as follows:
 
-bash
-Copy code
+```bash
 JAY_LIU_WEEK7_RUST/
 ├── Cargo.toml             # Rust project manifest file (dependencies and metadata)
 ├── src/
@@ -53,30 +52,25 @@ The command-line tool processes input files provided by the user and performs sp
 --help: Displays help information about the tool.
 --version: Displays the tool's version information.
 ## Command Syntax:
-bash
-Copy code
+```bash
 ./jay_liu_week7_rust --input <INPUT> [--output <OUTPUT>]
 <INPUT>: The path to the input file to be processed.
 <OUTPUT>: (Optional) The path where the output will be saved.
 
 ## Example Usage
 ### Processing an Input File:
-bash
-Copy code
+```bash
 ./jay_liu_week7_rust --input data/input.txt
 ### Output:
-lua
-Copy code
+```bash
 Processing input file: data/input.txt
 No output file specified.
 Operation completed successfully.
 ### Processing with an Output File:
-bash
-Copy code
+```bash
 ./jay_liu_week7_rust --input data/input.txt --output results/output.txt
 ### Output:
-lua
-Copy code
+```bash
 Processing input file: data/input.txt
 Output will be saved to: results/output.txt
 Operation completed successfully.
