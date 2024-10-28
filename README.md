@@ -26,17 +26,23 @@ JAY_LIU_WEEK7_RUST/
 └── .gitignore             # Specifies files and directories to ignore in version control
 
 ## File Descriptions:
-### Cargo.toml: Contains the project's dependencies and metadata. It defines the crate name, version, authors, and external crates used, such as clap for command-line argument parsing.
+### Cargo.toml: 
+Contains the project's dependencies and metadata. It defines the crate name, version, authors, and external crates used, such as clap for command-line argument parsing.
 
-### src/main.rs: The main Rust source file implementing the tool's functionality. It includes the logic for processing input files and handling command-line arguments.
+### src/main.rs: 
+The main Rust source file implementing the tool's functionality. It includes the logic for processing input files and handling command-line arguments.
 
-### .github/workflows/ci.yml: Configuration file for the CI/CD pipeline using GitHub Actions. It automates building, testing, and releasing the tool, and uploads the compiled binary as an artifact.
+### .github/workflows/ci.yml: 
+Configuration file for the CI/CD pipeline using GitHub Actions. It automates building, testing, and releasing the tool, and uploads the compiled binary as an artifact.
 
-### README.md: Provides an overview of the project, installation instructions, usage examples, and other essential documentation.
+### README.md: 
+Provides an overview of the project, installation instructions, usage examples, and other essential documentation.
 
-### LICENSE: Specifies the license under which the project is distributed (MIT License).
+### LICENSE: 
+Specifies the license under which the project is distributed (MIT License).
 
-### .gitignore: Lists files and directories to be ignored by Git, such as build artifacts and temporary files.
+### .gitignore: 
+Lists files and directories to be ignored by Git, such as build artifacts and temporary files.
 
 ## Command-Line Tool Functionality
 The command-line tool processes input files provided by the user and performs specified operations. It supports optional output file generation and provides helpful command-line options for flexibility.
