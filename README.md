@@ -23,7 +23,7 @@ JAY_LIU_WEEK7_RUST/
 ├── README.md              # Project documentation (this file)
 ├── LICENSE                # Project license (MIT License)
 └── .gitignore             # Specifies files and directories to ignore in version control
-
+```
 ## File Descriptions:
 ### Cargo.toml: 
 Contains the project's dependencies and metadata. It defines the crate name, version, authors, and external crates used, such as clap for command-line argument parsing.
@@ -56,24 +56,28 @@ The command-line tool processes input files provided by the user and performs sp
 ./jay_liu_week7_rust --input <INPUT> [--output <OUTPUT>]
 <INPUT>: The path to the input file to be processed.
 <OUTPUT>: (Optional) The path where the output will be saved.
-
+```
 ## Example Usage
 ### Processing an Input File:
 ```bash
 ./jay_liu_week7_rust --input data/input.txt
+```
 ### Output:
 ```bash
 Processing input file: data/input.txt
 No output file specified.
 Operation completed successfully.
+```
 ### Processing with an Output File:
 ```bash
 ./jay_liu_week7_rust --input data/input.txt --output results/output.txt
+```
 ### Output:
 ```bash
 Processing input file: data/input.txt
 Output will be saved to: results/output.txt
 Operation completed successfully.
+```
 ## Installation
 
 ### Prerequisites
@@ -86,4 +90,5 @@ Operation completed successfully.
 git clone https://github.com/nogibjj/Jay_Liu_week7_rust.git
 cd JAY_LIU_WEEK7_RUST
 cargo build --release
+```
 
